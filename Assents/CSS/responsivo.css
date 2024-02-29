@@ -1,0 +1,200 @@
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .suprema{
+        width: 100%;
+    }
+
+    .barra{
+        height: 75px;
+        width: 100%;
+    }
+
+
+    /*Container vertical*/
+    .container-vertical{
+        height: 2240px;
+        width:300px; 
+    }
+    .texto{
+        font-size: 15px;
+    }
+    h2{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .barrinha{
+        height: 3px;
+        width: 230px;
+    }
+
+    /*Imagem de comparação*/
+    .comparativo img{
+        height: 190px;
+        width: 290px;
+    }
+
+
+    /*Parte externa da triagem*/
+    .container-one{
+        height: 660px;
+    }
+    .triagem{
+        height: 660px;
+        width:100vw;
+    }
+    
+    /*Parte interna da triagem*/
+    .container-two{
+        margin-top: 50px;
+    }
+    .doencas{
+        height: 430px;
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+    }
+    .checkboxs{
+        padding: 5px;
+    }
+    .checkboxs label{
+        font-size: 14px;
+    }
+    .checkboxs input {
+        height: 17px;
+        width: 17px;
+    }
+    .botao{
+        margin-top: 20px;
+        width: 80px;
+        font-size: 14px;
+    }
+    .resultado-div{
+        padding-top:10px ;
+    }
+    .resultado{
+        padding: 3px;
+        border-radius: 20px;
+        font-size: 13px;
+        width: 270px;
+    }
+
+    /*Prevenção*/
+    .frases{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .frases p{
+        margin:9px;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+        /*Aviso*/
+    .aviso{
+        width: 260px;
+        height: 19px;
+    }
+    .aviso p {
+        font-size: 8px;
+    }
+
+    /*Rodapé*/
+    .final{
+        height: 40px;
+        padding-right: 15px;
+    }
+    .final p{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .suprema{
+        width: 100%;
+    }
+
+    .barra{
+        height: 75px;
+        width: 100%;
+    }
+
+    /*Container vertical*/
+    .container-vertical{
+        height: 2200px;
+        width:500px; 
+    }
+    h2{
+        font-size: 20px;
+    }
+    .barrinha{
+        height: 3px;
+        width: 230px;
+    }
+
+    .comparativo img{
+        height: 350px;
+        width: 500px;
+    }
+
+    .container-one{
+        height: 620px;
+    }
+    .triagem{
+        height: 620px;
+        width:100vw;
+    }
+    
+    /*Parte interna da triagem*/
+    .container-two{
+        margin-top:1px;
+    }
+    .doencas{
+        height: 430px;
+        width: 450px;
+        padding: 20px 0px 0px 0px;
+    }
+    .checkboxs{
+        padding: 5px;
+    }
+    .checkboxs label{
+        font-size: 17px;
+    }
+    .checkboxs input {
+        height: 17px;
+        width: 17px;
+    }
+    .botao{
+        margin-top: 20px;
+        width: 100px;
+        font-size: 14px;
+    }
+    .resultado-div{
+        padding-top:10px ;
+    }
+    .resultado{
+        padding: 3px;
+        font-size: 13px;
+        width: 420px;
+    }
+
+
+    /*Prevenção*/
+    .frases{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .frases p{
+        margin:20px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+
+        /*Aviso*/
+    .aviso{
+        width: 360px;
+        height: 25px;
+    }
+    .aviso p {
+        font-size: 10px;
+    }
+
+}

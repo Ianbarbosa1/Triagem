@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.suprema{
+    z-index: -99;
+    background-color: rgba(168, 165, 165, 0.74);  
+}
+/* Container vertical  */
+.container-horizontal{
+    height: 250px;
+    width: 100%; 
+    background-color:rgb(0,166,178);
+    text-align: center;
+}
+.particao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom:20px;
+    margin: 0 auto;
+}
+.particao img{
+    height: 75px;
+    width: 75px;
+    border-radius: 45px;
+}
+h1{
+    font-size: 40px;
+    font-family:Shantell Sans;
+    padding-left: 10px;
+}
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    height: 75px;
+    width: 800px;
+    background-color: rgba(207, 207, 207, 0.74);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: auto;
+}
+
+
+
+/*Container vertical*/
+.container-vertical{
+    height: 2320px;
+    width: 800px; 
+    background-color: rgba(207, 207, 207, 0.74);
+    text-align: center;
+    margin: auto;
+}
+.texto{
+    padding: 20px 10px 2px 10px;
+}
+h2{
+    margin-top: 30px;
+    font-family:Shantell Sans;
+    font-size: 23px;
+}
+.barrinha{
+    height: 3px;
+    width: 400px;
+    background-color:rgb(0,166,178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barrinha-{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*Triagem*/
+.container-one{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 750px;
+}
+.triagem{
+    height: 700px;
+    width:700px;
+    display:flex;
+    justify-content: center;
+}
+
+/*Parte interna da triagem*/
+.container-two{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.doencas{
+    height: 550px;
+    width: 500px;
+    background-color: #ffffff96;
+    backdrop-filter: blur(100px);
+    padding: 20px;
+    display: block;
+    border: 1px solid rgba(102, 99, 99, 0.596);
+}
+.checkboxs{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.checkboxs input {
+    height: 19px;
+    width: 19px;
+}
+
+/*Botao triagem*/
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao{
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+    background-color: #b1afaf81;
+}
+.botao:hover {
+     color: rgb(255, 0, 0);
+     border: 1px solid rgba(87, 86, 86, 0.685);
+}
+.resultado-div{
+    padding-top:15px ;
+}
+.resultado{
+    padding: 3px;
+    border: 1px solid rgba(100, 100, 100, 0.445);
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*Prevenção*/
+.prevencao{
+    text-align: start;
+    display: flex; 
+    justify-content: center;
+}
+.frases{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frases p{
+    color: white;
+    font-family:Shantell Sans;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:rgb(0,166,178);
+    border-radius: 30px;
+}
+
+
+
+/*Aviso*/
+.container-aviso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aviso{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 400px;
+    height: 25px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+}
+.aviso p {
+    font-size: 13px;
+    color: white;
+}
+
+/*Rodapé*/
+.final{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(0,166,178);
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 30px;
+}
+.final p{
+    font-size: 13px;
+    font-family: cursive;
+}
