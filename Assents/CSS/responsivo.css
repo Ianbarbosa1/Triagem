@@ -5,14 +5,14 @@
 
     .barra{
         height: 75px;
-        width: 100%;
+        width: 350px;
     }
 
 
     /*Container vertical*/
     .container-vertical{
-        height: 2240px;
-        width:300px; 
+        height: 2100px;
+        width:350px; 
     }
     .texto{
         font-size: 15px;
@@ -39,7 +39,7 @@
     }
     .triagem{
         height: 660px;
-        width:100vw;
+        width:300px;
     }
     
     /*Parte interna da triagem*/
@@ -116,7 +116,7 @@
 
     .barra{
         height: 75px;
-        width: 100%;
+        width: 500px;
     }
 
     /*Container vertical*/
