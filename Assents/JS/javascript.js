@@ -1,17 +1,9 @@
-let nome = prompt('Digite seu primeiro nome: ')
-
-if (nome == null){
-    nome = ' '
-}
-
-
-
 let respostas = [
     'De acordo com os dados coletados, seus sintomas indicam que você pode está com sintomas da dengue. Recorra ao hospital mais próximo para verificar seu estado de saúde.',
 
     'Os sintomas assinalados não indicam algo grave, mantenha-se em repouso, se alimente corretamente e beba bastante aguá.',
     
-    `${nome} você não selecionou nenhuma das opções!`
+    `Você não selecionou nenhuma das opções!`
 ]
 
 var verificador = document.getElementById('D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9');
