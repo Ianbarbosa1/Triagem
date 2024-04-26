@@ -133,14 +133,14 @@ h2{
 .botao{
     margin-top: 20px;
     border: 1px solid;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
     width: 100px;
     background-color: #b1afaf81;
 }
 .botao:hover {
-     color: rgb(255, 0, 0);
-     border: 1px solid rgba(87, 86, 86, 0.685);
+     color:rgb(255, 255, 255);
+     border: 1px solid rgba(39, 38, 38, 0.685);
 }
 .resultado-div{
     padding-top:15px ;
