@@ -171,11 +171,14 @@
     }
     .resultado-div{
         padding-top:10px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .resultado{
-        padding: 3px;
+        padding: 5px;
         font-size: 13px;
-        width: 420px;
+        width: 430px;
     }
 
 
