@@ -10,6 +10,8 @@
     z-index: -99;
     background-color: rgba(168, 165, 165, 0.74);  
 }
+
+
 /* Container vertical  */
 .container-horizontal{
     height: 250px;
@@ -49,7 +51,6 @@ h1{
 }
 
 
-
 /*Container vertical*/
 .container-vertical{
     height: 2320px;
@@ -81,7 +82,6 @@ h2{
 }
 
 
-
 /*Triagem*/
 .container-one{
     display:flex;
@@ -108,21 +108,25 @@ h2{
 .doencas{
     height: 550px;
     width: 500px;
-    background-color: #ffffff96;
-    backdrop-filter: blur(100px);
+    background-color: #ffffffce;
+    filter: drop-shadow(2px 2px 10px rgb(0, 0, 0));
+    backdrop-filter: blur(10px);
     padding: 20px;
     display: block;
     border: 1px solid rgba(102, 99, 99, 0.596);
+    border-radius: 20px;
 }
 .checkboxs{
     padding: 10px;
     display: flex;
     align-items: center;
 }
-.checkboxs input {
-    height: 19px;
+.checkboxs input{
     width: 19px;
+    height: 19px;
+    border: 2px solid rgb(0, 0, 0);
 }
+
 
 /*Botao triagem*/
 .btn{
@@ -136,19 +140,21 @@ h2{
     border-radius: 10px;
     cursor: pointer;
     width: 100px;
-    background-color: #b1afaf81;
+    background-color: #24232334;
+    backdrop-filter: blur(2px);
+    border: 1px solid;
+    border-color: rgb(39, 38, 38) rgb(121, 121, 121);  
 }
 .botao:hover {
-     color:rgb(255, 255, 255);
-     border: 1px solid rgba(39, 38, 38, 0.685);
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.527);
 }
 .resultado-div{
-    margin-top:10px;
+    margin-top:20px;
 }
 .resultado{
     padding: 3px;
-    border: 1px solid rgba(100, 100, 100, 0.445);
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -177,7 +183,6 @@ h2{
 }
 
 
-
 /*Aviso*/
 .container-aviso{
     display: flex;
@@ -199,6 +204,7 @@ h2{
     font-size: 13px;
     color: white;
 }
+
 
 /*Rodapé*/
 .final{
