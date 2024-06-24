@@ -13,27 +13,32 @@ var verificador = document.getElementById('D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D
 function evento(){
     if(D1.checked & D2.checked & D4.checked ){
         document.querySelector('.resultado').innerHTML = respostas[0];
-        document.querySelector('.resultado').style.border = '1px solid red';
+        document.querySelector('.resultado').style.backgroundColor = 'rgba(255, 0, 0, 0.534)';
+        document.querySelector('.resultado').style.backdropFilter = 'blur(50px)'
     }
     else if(D8.checked || D9.checked){
         document.querySelector('.resultado').innerHTML = respostas[0];
-        document.querySelector('.resultado').style.border = '1px solid red';
+        document.querySelector('.resultado').style.backgroundColor = 'rgba(255, 0, 0, 0.534)';
+        document.querySelector('.resultado').style.backdropFilter = 'blur(50px)'
     }
     else if(D1.checked & D3.checked & D4.checked & D7.checked){
         document.querySelector('.resultado').innerHTML = respostas[0];
-        document.querySelector('.resultado').style.border = '1px solid red';
+        document.querySelector('.resultado').style.backgroundColor = 'rgba(255, 0, 0, 0.534)';
+        document.querySelector('.resultado').style.backdropFilter = 'blur(50px)'
     }
     else if(D1.checked || D2.checked || D3.checked || D4.checked || D5.checked || D6.checked || D7.checked || D8.checked || D9.checked){
         document.querySelector('.resultado').innerHTML = respostas[1];
-        document.querySelector('.resultado').style.border = '1px solid rgb(0, 255, 128)';
+        document.querySelector('.resultado').style.backgroundColor = ' rgb(0, 255, 128)';
+        document.querySelector('.resultado').style.backdropFilter = 'blur(50px'
     }
     else if(D1.checked & D2.checked & D3.checked & D4.checked & D5.checked & D6.checked & D7.checked & D8.checked & D9.checked){
         document.querySelector('.resultado').innerHTML = respostas[0];
-        document.querySelector('.resultado').style.border = '1px solid red';
+        document.querySelector('.resultado').style.backgroundColor = 'rgba(255, 0, 0, 0.534)';
+        document.querySelector('.resultado').style.backdropFilter = 'blur(50px)'
     }
-    else if(D1.checked == false & D2.checked == false & D3.checked == false & D4.checked== false & D5.checked == false & D6.checked == false & D7.checked == false & D8.checked == false & D9.checked == false){
+    else if(D1.checked == false & D2.checked == false & D3.checked == false & D4.checked == false & D5.checked == false & D6.checked == false & D7.checked == false & D8.checked == false & D9.checked == false){
         document.querySelector('.resultado').innerHTML = respostas[2];
-        document.querySelector('.resultado').style.border = '1px solid rgba(100, 100, 100, 0.445)';
-    }
+        document.querySelector('.resultado').style.backgroundColor = 'rgba(255, 255, 255, 0.185)';
+        document.querySelector('.resultado').style.backdropFilter = 'blur(10px)' 
+    } 
 }
-
