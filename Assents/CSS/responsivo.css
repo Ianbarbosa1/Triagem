@@ -1,25 +1,25 @@
-@media screen and (min-width: 300px) and (max-width: 600px){
+@media screen and (min-width: 450px) and (max-width: 700px){
     .suprema{
         width: 100%;
     }
 
     .barra{
         height: 75px;
-        width: 350px;
+        width: 100%;
     }
-
 
     /*Container vertical*/
     .container-vertical{
         height: 2100px;
-        width:350px; 
+        width:100%; 
     }
     .texto{
         font-size: 15px;
+        padding: 15px;
     }
     h2{
         margin-top: 30px;
-        font-size: 15px;
+        font-size: 18px;
     }
     .barrinha{
         height: 3px;
@@ -28,18 +28,19 @@
 
     /*Imagem de comparação*/
     .comparativo img{
-        height: 190px;
-        width: 290px;
+        height: 290px;
+        width:400px;
     }
 
 
     /*Parte externa da triagem*/
     .container-one{
-        height: 660px;
+        height: 650px;
+        width: 100%;
     }
     .triagem{
-        height: 660px;
-        width:300px;
+        height:650px;
+        width:430px;
     }
     
     /*Parte interna da triagem*/
@@ -47,7 +48,7 @@
         margin-top: 50px;
     }
     .doencas{
-        height: 430px;
+        height: 450px;
         width: 100%;
         padding: 20px 0px 0px 0px;
     }
@@ -55,11 +56,11 @@
         padding: 5px;
     }
     .checkboxs label{
-        font-size: 14px;
+        font-size: 17px;
     }
     .checkboxs input {
-        height: 17px;
-        width: 17px;
+        height: 19px;
+        width: 19px;
     }
     .botao{
         margin-top: 20px;
@@ -67,7 +68,7 @@
         font-size: 14px;
     }
     .resultado-div{
-        padding-top:10px ;
+        margin-top:20px ;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -76,7 +77,7 @@
         padding: 3px;
         border-radius: 20px;
         font-size: 13px;
-        width: 270px;
+        width: 90%;
     }
 
     /*Prevenção*/
@@ -87,16 +88,16 @@
     .frases p{
         margin:9px;
         padding: 5px;
-        font-size: 10px;
+        font-size: 15px;
     }
 
         /*Aviso*/
     .aviso{
-        width: 260px;
-        height: 19px;
+        width: 400px;
+        height: 30px;
     }
     .aviso p {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     /*Rodapé*/
@@ -105,27 +106,27 @@
         padding-right: 15px;
     }
     .final p{
-        font-size: 9px;
+        font-size: 10px;
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 900px){
+@media screen and (min-width: 701px) and (max-width: 900px){
     .suprema{
         width: 100%;
     }
 
     .barra{
         height: 75px;
-        width: 500px;
+        width: 700px;
     }
 
     /*Container vertical*/
     .container-vertical{
         height: 2200px;
-        width:500px; 
+        width:700px; 
     }
     h2{
-        font-size: 20px;
+        font-size: 23px;
     }
     .barrinha{
         height: 3px;
@@ -133,41 +134,42 @@
     }
 
     .comparativo img{
-        height: 350px;
-        width: 500px;
+        height: 450px;
+        width: 650px;
     }
 
     .container-one{
-        height: 620px;
+        height: 700px;
     }
     .triagem{
-        height: 620px;
-        width:100vw;
+        height: 700px;
+        width:100%;
     }
     
     /*Parte interna da triagem*/
     .container-two{
-        margin-top:1px;
+        margin-top:15px;
     }
     .doencas{
-        height: 430px;
-        width: 450px;
+        height: 580px;
+        width: 500px;
         padding: 20px 0px 0px 0px;
+        border-radius: 20px;
     }
     .checkboxs{
-        padding: 5px;
+        padding: 10px;
     }
     .checkboxs label{
-        font-size: 17px;
+        font-size: 18px;
     }
     .checkboxs input {
-        height: 17px;
-        width: 17px;
+        height: 21px;
+        width: 21px;
     }
     .botao{
         margin-top: 20px;
-        width: 100px;
-        font-size: 14px;
+        width: 120px;
+        font-size: 17px;
     }
     .resultado-div{
         padding-top:10px ;
@@ -177,8 +179,8 @@
     }
     .resultado{
         padding: 5px;
-        font-size: 13px;
-        width: 430px;
+        font-size: 15px;
+        width:90%;
     }
 
 
