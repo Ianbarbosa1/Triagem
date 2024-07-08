@@ -1,3 +1,115 @@
+@media screen and (min-width: 350px) and (max-width: 449px){
+    .suprema{
+        width: 100%;
+    }
+
+    .barra{
+        height: 75px;
+        width: 100%;
+    }
+
+    /*Container vertical*/
+    .container-vertical{
+        height: 100%;
+        width:100%;
+        padding-bottom: 20px;
+    }
+    .texto{
+        font-size: 15px;
+        padding: 15px;
+    }
+    h2{
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .barrinha{
+        height: 3px;
+        width: 230px;
+    }
+
+    /*Imagem de comparação*/
+    .comparativo img{
+        height: 270px;
+        width:350px;
+    }
+
+
+    /*Parte externa da triagem*/
+    .container-one{
+        height: 650px;
+        width: 100%;
+    }
+    .triagem{
+        height:650px;
+        width:430px;
+    }
+    
+    /*Parte interna da triagem*/
+    .container-two{
+        margin-top: 50px;
+    }
+    .doencas{
+        height: 450px;
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+    }
+    .checkboxs{
+        padding: 5px;
+    }
+    .checkboxs label{
+        font-size: 17px;
+    }
+    .checkboxs input {
+        height: 19px;
+        width: 19px;
+    }
+    .botao{
+        margin-top: 20px;
+        width: 120px;
+        font-size: 19px;
+    }
+    .resultado-div{
+        margin-top:20px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .resultado{
+        padding: 3px;
+        border-radius: 20px;
+        font-size: 13px;
+        width: 90%;
+    }
+
+    /*Prevenção*/
+    .frases{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .frases p{
+        margin:9px;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    /*Aviso*/
+    .aviso{
+        width: 400px;
+        height: 30px;
+    }
+    .aviso p {
+        font-size: 12px;
+    }
+
+    /*Rodapé*/
+    .final{
+        height: 40px;
+        padding-right: 15px;
+    }
+    .final p{
+        font-size: 10px;
+    }
+}
 @media screen and (min-width: 450px) and (max-width: 700px){
     .suprema{
         width: 100%;
