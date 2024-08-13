@@ -33,35 +33,25 @@
         width:350px;
     }
 
-
     /*Parte externa da triagem*/
     .container-one{
-        height: 650px;
+        height: 750px;
         width: 100%;
     }
     .triagem{
-        height:650px;
+        height:750px;
         width:430px;
     }
+
     
     /*Parte interna da triagem*/
     .container-two{
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .doencas{
-        height: 450px;
+        height: 550px;
         width: 100%;
         padding: 20px 0px 0px 0px;
-    }
-    .checkboxs{
-        padding: 5px;
-    }
-    .checkboxs label{
-        font-size: 17px;
-    }
-    .checkboxs input {
-        height: 19px;
-        width: 19px;
     }
     .botao{
         margin-top: 20px;
@@ -110,6 +100,7 @@
         font-size: 10px;
     }
 }
+
 @media screen and (min-width: 450px) and (max-width: 700px){
     .suprema{
         width: 100%;
@@ -147,11 +138,11 @@
 
     /*Parte externa da triagem*/
     .container-one{
-        height: 650px;
+        height: 750px;
         width: 100%;
     }
     .triagem{
-        height:650px;
+        height:750px;
         width:430px;
     }
     
@@ -160,19 +151,9 @@
         margin-top: 50px;
     }
     .doencas{
-        height: 450px;
+        height: 525px;
         width: 100%;
         padding: 20px 0px 0px 0px;
-    }
-    .checkboxs{
-        padding: 5px;
-    }
-    .checkboxs label{
-        font-size: 17px;
-    }
-    .checkboxs input {
-        height: 19px;
-        width: 19px;
     }
     .botao{
         margin-top: 20px;
@@ -251,10 +232,10 @@
     }
 
     .container-one{
-        height: 700px;
+        height: 800px;
     }
     .triagem{
-        height: 700px;
+        height: 800px;
         width:100%;
     }
     
@@ -264,19 +245,8 @@
     }
     .doencas{
         height: 580px;
-        width: 500px;
+        width: 520px;
         padding: 20px 0px 0px 0px;
-        border-radius: 20px;
-    }
-    .checkboxs{
-        padding: 10px;
-    }
-    .checkboxs label{
-        font-size: 18px;
-    }
-    .checkboxs input {
-        height: 21px;
-        width: 21px;
     }
     .botao{
         margin-top: 20px;
@@ -284,10 +254,7 @@
         font-size: 17px;
     }
     .resultado-div{
-        padding-top:10px ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding-top:10px;
     }
     .resultado{
         padding: 5px;
