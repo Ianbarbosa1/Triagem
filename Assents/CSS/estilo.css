@@ -1,43 +1,42 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
 }
-
-.suprema{
+.suprema {
     z-index: -99;
-    background-color: rgba(168, 165, 165, 0.74);  
+    background-color: rgba(168, 165, 165, 0.74);
 }
 
 
 /* Container vertical  */
-.container-horizontal{
+.container-horizontal {
     height: 250px;
-    width: 100%; 
-    background-color:rgb(0,166,178);
+    width: 100%;
+    background-color: rgb(0, 166, 178);
     text-align: center;
 }
-.particao{
+.particao {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 80px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
     margin: 0 auto;
 }
-.particao img{
+.particao img {
     height: 75px;
     width: 75px;
     border-radius: 45px;
 }
-h1{
+h1 {
     font-size: 40px;
-    font-family:Shantell Sans;
+    font-family: Shantell Sans;
     padding-left: 10px;
 }
-.barra{
+.barra {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,30 +51,30 @@ h1{
 
 
 /*Container vertical*/
-.container-vertical{
+.container-vertical {
     height: 2320px;
-    width: 800px; 
+    width: 800px;
     background-color: rgba(207, 207, 207, 0.74);
     text-align: center;
     margin: auto;
 }
-.texto{
+.texto {
     padding: 20px 10px 2px 10px;
 }
-h2{
+h2 {
     margin-top: 30px;
-    font-family:Shantell Sans;
+    font-family: Shantell Sans;
     font-size: 23px;
 }
-.barrinha{
+.barrinha {
     height: 3px;
     width: 400px;
-    background-color:rgb(0,166,178);
+    background-color: rgb(0, 166, 178);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.barrinha-{
+.barrinha- {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,29 +82,29 @@ h2{
 
 
 /*Triagem*/
-.container-one{
-    display:flex;
+.container-one {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
     height: 750px;
 }
-.triagem{
+.triagem {
     height: 700px;
-    width:700px;
-    display:flex;
+    width: 700px;
+    display: flex;
     justify-content: center;
 }
 
 /*Parte interna da triagem*/
-.container-two{
-    display:flex;
+.container-two {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-.doencas{
+.doencas {
     height: 550px;
     width: 500px;
     background-color: #ffffffce;
@@ -116,37 +115,37 @@ h2{
     border: 1px solid rgba(102, 99, 99, 0.596);
     border-radius: 20px;
 }
-.checkboxs{
+.checkboxs {
     padding: 7px;
     display: flex;
     align-items: center;
 }
-.checkboxs input{
+.checkboxs input {
     padding: 3px 5px;
     border-radius: 3px;
     appearance: none;
     cursor: pointer;
     background-color: rgb(187, 185, 185);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
 }
-.checkboxs input::before{
+.checkboxs input::before {
     content: 'OFF';
     color: rgb(255, 0, 0);
 }
-.checkboxs input:checked:before{
+.checkboxs input:checked:before {
     content: 'ON';
     color: rgb(166, 255, 0);
 }
 
 
 /*Botao triagem*/
-.btn{
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.botao{
+.botao {
     margin-top: 20px;
     border: 1px solid;
     border-radius: 10px;
@@ -155,19 +154,19 @@ h2{
     background-color: #24232334;
     backdrop-filter: blur(2px);
     border: 1px solid;
-    border-color: rgb(39, 38, 38) rgb(121, 121, 121);  
+    border-color: rgb(39, 38, 38) rgb(121, 121, 121);
 }
 .botao:hover {
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.527);
 }
-.resultado-div{
-    margin-top:20px;
+.resultado-div {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.resultado{
+.resultado {
     padding: 3px;
     border-radius: 10px;
     font-size: 15px;
@@ -176,42 +175,42 @@ h2{
 
 
 /*Prevenção*/
-.prevencao{
+.prevencao {
     text-align: start;
-    display: flex; 
+    display: flex;
     justify-content: center;
 }
-.frases{
+.frases {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.frases p{
+.frases p {
     color: white;
-    font-family:Shantell Sans;
+    font-family: Shantell Sans;
     margin: 50px;
     padding: 10px;
     border: 1px solid rgb(255, 255, 255);
-    background-color:rgb(0,166,178);
+    background-color: rgb(0, 166, 178);
     border-radius: 30px;
     filter: drop-shadow(2px 2px 5px rgb(255, 255, 255));
 }
 
 
 /*Aviso*/
-.container-aviso{
+.container-aviso {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.aviso{
+.aviso {
     border: 1px solid white;
     border-radius: 20px;
     width: 400px;
     height: 25px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     text-align: center;
     background-color: rgb(255, 0, 0);
@@ -223,17 +222,17 @@ h2{
 
 
 /*Rodapé*/
-.final{
+.final {
     height: 50px;
     width: 100%;
-    background-color:rgb(0,166,178);
+    background-color: rgb(0, 166, 178);
     color: white;
     display: flex;
     justify-content: end;
     align-items: end;
     padding-right: 30px;
 }
-.final p{
+.final p {
     font-size: 13px;
     font-family: cursive;
 }
