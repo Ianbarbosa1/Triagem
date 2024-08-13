@@ -117,14 +117,26 @@ h2{
     border-radius: 20px;
 }
 .checkboxs{
-    padding: 10px;
+    padding: 7px;
     display: flex;
     align-items: center;
 }
 .checkboxs input{
-    width: 19px;
-    height: 19px;
-    border: 2px solid rgb(0, 0, 0);
+    padding: 3px 5px;
+    border-radius: 3px;
+    appearance: none;
+    cursor: pointer;
+    background-color: rgb(187, 185, 185);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+.checkboxs input::before{
+    content: 'OFF';
+    color: rgb(255, 0, 0);
+}
+.checkboxs input:checked:before{
+    content: 'ON';
+    color: rgb(166, 255, 0);
 }
 
 
@@ -151,6 +163,9 @@ h2{
 }
 .resultado-div{
     margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .resultado{
     padding: 3px;
@@ -180,6 +195,7 @@ h2{
     border: 1px solid rgb(255, 255, 255);
     background-color:rgb(0,166,178);
     border-radius: 30px;
+    filter: drop-shadow(2px 2px 5px rgb(255, 255, 255));
 }
 
 
